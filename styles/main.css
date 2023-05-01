@@ -1,0 +1,92 @@
+body {
+  margin: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: gray;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar {
+  flex-direction: column;
+  flex-basis: calc(100vw - 75vw);
+  background-color: rgb(60, 60, 60);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.sidebar hr {
+  padding: 0.5px;
+  background-color: white;
+  border-color: white;
+  /* margin-left: calc(100vw - 95vw); */
+}
+
+.sidebar h2 {
+  /* margin-left: calc(100vw - 95vw); */
+  font-weight: bold;
+  color: white;
+}
+
+.profile {
+  height: 450px;
+  width: calc(100vw - 75vw);
+  border-radius: 10px 0px 0px 0px;
+}
+
+.education {
+  margin-left: calc(100vw - 95vw);
+}
+
+.education-content {
+  color: white;
+  padding-bottom: 1px;
+}
+
+.education-content p {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.reference {
+  margin-left: calc(100vw - 95vw);
+}
+
+.reference-content {
+  color: white;
+  padding-bottom: 1px;
+}
+
+.reference-content p {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.contact-data {
+  padding-bottom: 100px;
+}
+
+.contact-data div {
+  background-color: yellow;
+}
+
+.contact-data h2 {
+  margin-left: calc(100vw - 95vw);
+  background-color: dimgrey;
+  margin-bottom: 2px;
+  padding-left: 5px;
+}
+
+.contact-data p {
+  margin-left: calc(100vw - 95vw);
+  margin-bottom: 2px;
+  margin-top: 2px;
+  color: white;
+}
