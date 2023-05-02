@@ -214,7 +214,7 @@ body {
 
 .progress hr {
   padding: 3px;
-  border-color: darkblue;
-  background-color: darkblue;
+  border-color: #e3d805;
+  background-color: #e3d805;
   margin: 0px;
 }
