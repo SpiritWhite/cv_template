@@ -1,0 +1,252 @@
+@media screen and (max-width: 840px) {
+  body {
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
+  }
+  
+  .sidebar {
+    flex-direction: column;
+    flex-basis: calc(100vw - 75vw);
+    background-color: rgb(60, 60, 60);
+    border-radius: 10px 0px 0px 10px;
+    /* visibility: hidden; */
+  }
+  
+  .sidebar hr {
+    padding: 0.5px;
+    background-color: white;
+    border-color: white;
+    /* margin-left: calc(100vw - 95vw); */
+  }
+  
+  .sidebar h2 {
+    /* margin-left: calc(100vw - 95vw); */
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+  }
+  
+  /* .profile {
+    height: 450px;
+    width: calc(100vw - 60vw);
+    border-radius: 10px 0px 0px 0px;
+  } */
+  .profile {
+    height: 450px;
+    width: calc(100vw - 60vw);
+    border-radius: 10px 0px 0px 0px;
+    background-image: url('../images/pprofile-bw.jpg');
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    background-position: left;
+  }
+  
+  .profile img {
+    margin-top: 50%;
+    margin-left: 10%;
+    border-radius: 70%;
+    border: 2px solid white;
+    height: auto;
+    width: 80%;
+  }
+  
+  .education {
+    margin-left: calc(100vw - 95vw);
+  }
+  
+  .education-content {
+    color: white;
+    padding-bottom: 1px;
+    margin-left: calc(100vw - 99vw);
+    font-size: small;
+  }
+  
+  .education-content p {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: small;
+  }
+  
+  .reference {
+    margin-left: calc(100vw - 95vw);
+  }
+  
+  .reference-content {
+    color: white;
+    padding-bottom: 1px;
+    margin-left: calc(100vw - 99vw);
+    font-size: small;
+  }
+  
+  .reference-content p {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: small;
+  }
+  
+  .contact-data {
+    padding-bottom: 100px;
+    padding-top: 40px;
+  }
+  
+  .contact-data div {
+    background-color: yellow;
+  }
+  
+  .contact-data h2 {
+    margin-left: calc(100vw - 95vw);
+    background-color: dimgrey;
+    margin-bottom: 2px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: small;
+  }
+  
+  .contact-data p {
+    margin-left: calc(100vw - 95vw);
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .content {
+    flex-direction: column;
+    flex-basis: calc(100vw - 30vw);
+    margin: 0px;
+    background-color: whitesmoke;
+    border-radius: 0px 10px 10px 0px;
+  }
+  
+  .title {
+    margin-top: 120px;
+    background-color: #e3d805;
+    padding: 30px 0 30px calc(100vw - 90vw);
+  }
+  
+  .title h1 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-bottom: 0px;
+  }
+  
+  .title h4 {
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-top: 10px;
+  }
+  
+  .content-data {
+    padding-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  
+  .content-data h2 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: medium;
+  }
+  
+  .content-data hr {
+    padding: 0.2px;
+    background-color: black;
+    border-color: black;
+  }
+  
+  .content-data p {
+    padding-bottom: 40px;
+    font-size: small;
+  }
+  
+  .work-experience {
+    color: black;
+  }
+  
+  .tablet-we {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .tablet-we-side {
+    flex-direction: column;
+    flex-basis: calc(100vw - 85vw);
+    /* background-color: aqua; */
+  }
+  
+  .tablet-we-side h4 {
+    margin-left: 5px;
+    font-size: small;
+  }
+  
+  .tablet-we-content {
+    flex-direction: column;
+    /* background-color: blueviolet; */
+    flex-basis: calc(100vw - 50vw);
+  }
+  
+  .work-section {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  
+  .work-section h4 {
+    margin-bottom: 0px;
+    font-size: small;
+  }
+  
+  .work-section h5 {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    font-size: small;
+  }
+  
+  .software-skill {
+    /* background-color: brown; */
+    color: black;
+    padding-bottom: 100px;
+  }
+  
+  .sofware-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(100vw - 92vw);
+    font-size: 18px;
+  }
+  
+  .software {
+    padding-left: 55px;
+    flex-direction: column;
+    width: 200px;
+  }
+  
+  .progress {
+    margin-top: 0px;
+    background-color: grey;
+    border-color: grey;
+  }
+  
+  .progress hr {
+    padding: 3px;
+    border-color: #e3d805;
+    background-color: #e3d805;
+    margin: 0px;
+  }
+}

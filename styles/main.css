@@ -40,6 +40,20 @@ body {
   height: 450px;
   width: calc(100vw - 75vw);
   border-radius: 10px 0px 0px 0px;
+  background-image: url('../images/pprofile-bw.jpg');
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile img {
+  margin-top: 50%;
+  margin-left: 10%;
+  border-radius: 70%;
+  border: 2px solid white;
+  height: auto;
+  width: 80%;
 }
 
 .education {
