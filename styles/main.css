@@ -1,5 +1,5 @@
 body {
-  margin: 35px;
+  margin: 95px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: gray;
 }
@@ -12,7 +12,7 @@ body {
   margin-right: auto;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7);
 }
 
 .sidebar {
@@ -20,6 +20,7 @@ body {
   flex-basis: calc(100vw - 75vw);
   background-color: rgb(60, 60, 60);
   border-radius: 10px 0px 0px 10px;
+  /* visibility: hidden; */
 }
 
 .sidebar hr {
@@ -48,6 +49,7 @@ body {
 .education-content {
   color: white;
   padding-bottom: 1px;
+  margin-left: calc(100vw - 99vw);
 }
 
 .education-content p {
@@ -62,6 +64,7 @@ body {
 .reference-content {
   color: white;
   padding-bottom: 1px;
+  margin-left: calc(100vw - 99vw);
 }
 
 .reference-content p {
@@ -71,6 +74,7 @@ body {
 
 .contact-data {
   padding-bottom: 100px;
+  padding-top: 40px;
 }
 
 .contact-data div {
@@ -81,7 +85,9 @@ body {
   margin-left: calc(100vw - 95vw);
   background-color: dimgrey;
   margin-bottom: 2px;
-  padding-left: 5px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .contact-data p {
@@ -89,4 +95,53 @@ body {
   margin-bottom: 2px;
   margin-top: 2px;
   color: white;
+}
+
+.content {
+  flex-direction: column;
+  flex-basis: calc(100vw - 30vw);
+  margin: 0px;
+  background-color: whitesmoke;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.title {
+  margin-top: 120px;
+  background-color: #e3d805;
+  padding: 30px 0 30px calc(100vw - 90vw);
+}
+
+.title h1 {
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  margin-bottom: 0px;
+}
+
+.title h4 {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  margin-top: 10px;
+}
+
+.content-data {
+  padding-top: 40px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.content-data h2 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.content-data hr {
+  padding: 0.2px;
+  background-color: black;
+  border-color: black;
+}
+
+.content-data p {
+  padding-bottom: 40px;
 }
