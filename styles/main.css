@@ -145,3 +145,80 @@ body {
 .content-data p {
   padding-bottom: 40px;
 }
+
+.work-experience {
+  color: black;
+}
+
+.tablet-we {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.tablet-we-side {
+  flex-direction: column;
+  flex-basis: calc(100vw - 85vw);
+  /* background-color: aqua; */
+}
+
+.tablet-we-side h4 {
+  margin-left: 5px;
+}
+
+.tablet-we-content {
+  flex-direction: column;
+  /* background-color: blueviolet; */
+  flex-basis: calc(100vw - 70vw);
+}
+
+.work-section {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.work-section h4 {
+  margin-bottom: 0px;
+}
+
+.work-section h5 {
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.software-skill {
+  /* background-color: brown; */
+  color: black;
+  padding-bottom: 100px;
+}
+
+.sofware-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(100vw - 88vw);
+  font-size: 18px;
+}
+
+.software {
+  padding-left: 55px;
+  flex-direction: column;
+  width: 200px;
+}
+
+.progress {
+  margin-top: 0px;
+  background-color: grey;
+  border-color: grey;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  text-align: start;
+}
+
+.progress hr {
+  padding: 3px;
+  border-color: darkblue;
+  background-color: darkblue;
+  margin: 0px;
+}
