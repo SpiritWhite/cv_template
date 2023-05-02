@@ -196,7 +196,7 @@ body {
 .sofware-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(100vw - 88vw);
+  margin-left: calc(100vw - 92vw);
   font-size: 18px;
 }
 
@@ -210,10 +210,6 @@ body {
   margin-top: 0px;
   background-color: grey;
   border-color: grey;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
-  text-align: start;
 }
 
 .progress hr {
