@@ -133,6 +133,45 @@
     color: white;
   }
 
+  .networking {
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .networking h4 {
+    letter-spacing: 2px;
+    font-size: small;
+  }
+  
+  .networking hr {
+    width: 30%;
+    padding: 1px;
+  }
+  
+  .network-img {
+    height: auto;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .network-img a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+  }
+  
+  .network-img img {
+    height: auto;
+    width: 10%;
+    margin: 0px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 100%;
+  }  
+
   .content {
     flex-direction: column;
     flex-basis: calc(100vw - 30vw);
