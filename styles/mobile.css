@@ -1,13 +1,13 @@
 @media screen and (max-width: 840px) {
   body {
-    margin: 15px;
+    margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: gray;
   }
 
   .container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: stretch;
     margin-left: auto;
     margin-right: auto;
@@ -18,9 +18,9 @@
 
   .sidebar {
     flex-direction: column;
-    flex-basis: calc(100vw - 75vw);
+    flex-basis: calc(100vw - 0vw);
     background-color: rgb(60, 60, 60);
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 10px 0px 0px;
     /* visibility: hidden; */
   }
 
@@ -46,8 +46,8 @@
   } */
   .profile {
     height: 450px;
-    width: calc(100vw - 60vw);
-    border-radius: 10px 0px 0px 0px;
+    width: calc(100vw - 0vw);
+    border-radius: 10px 10px 0px 0px;
     background-image: url('../images/pprofile-bw.jpg');
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -173,17 +173,19 @@
   }  
 
   .content {
+    display: contents;
     flex-direction: column;
-    flex-basis: calc(100vw - 30vw);
+    flex-basis: calc(100vw - 0vw);
     margin: 0px;
     background-color: whitesmoke;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 0px 10px 10px;
   }
 
   .title {
     margin-top: 120px;
     background-color: #e3d805;
-    padding: 30px 0 30px calc(100vw - 90vw);
+    width: calc(100vw - 10vw);
+    /* padding: 30px calc(100vw - 70vw) 30px calc(100vw - 90vw); */
   }
 
   .title h1 {
@@ -202,8 +204,8 @@
 
   .content-data {
     padding-top: 40px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: calc(100vw - 90vw);
+    margin-right: calc(100vw - 90vw);
   }
 
   .content-data h2 {
@@ -248,7 +250,7 @@
   .tablet-we-content {
     flex-direction: column;
     /* background-color: blueviolet; */
-    flex-basis: calc(100vw - 50vw);
+    flex-basis: calc(100vw - 20vw);
   }
 
   .work-section {
@@ -276,12 +278,12 @@
   .sofware-list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: calc(100vw - 92vw);
+    margin-left: calc(100vw - 100vw);
     font-size: 18px;
   }
 
   .software {
-    padding-left: 55px;
+    padding-left: 25px;
     flex-direction: column;
     width: 200px;
   }
