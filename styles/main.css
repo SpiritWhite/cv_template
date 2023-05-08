@@ -171,7 +171,7 @@ body {
 .title {
   margin-top: 120px;
   background-color: #e3d805;
-  padding: 30px 0 30px calc(100vw - 90vw);
+  padding: 30px 0px 30px calc(100vw - 90vw);
 }
 
 .title h1 {
